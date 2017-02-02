@@ -1,0 +1,1 @@
+include ':app', ':jwplayer-core-2.6.0+7-javadoc', ':jwplayer-common-2.6.0+7-javadoc'

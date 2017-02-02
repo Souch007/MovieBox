@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+
+        <item
+            android:id="@+id/nav_item_wall"
+            android:checkable="true"
+
+            android:title="News Feed" />
+
+        <item
+            android:id="@+id/nav_item_home"
+            android:checkable="true"
+
+            android:title="Home" />
+     <!--   <item
+            android:id="@+id/nav_item_my_dashboard"
+            android:checkable="true"
+
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_item_profile_simple"
+            android:checkable="true"
+            android:icon="@drawable/drawer_profile_icon"
+            android:title="Profile" />-->
+    </group>
+
+
+    <item android:title="Pro-Profile">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_itemInbox"
+                    android:checkable="true"
+
+                    android:title="Inbox" />
+                <item
+                    android:id="@+id/nav_item_profile_pro"
+                    android:checkable="true"
+                    android:title="Pro-Profile" />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <!--<item
+        android:id="@+id/nav_item_viewpro"
+        android:checkable="true"
+        android:icon="@drawable/drawer_pro_profile_icon"
+        android:title="View Professionals" />-->
+    <!--<item
+        android:id="@+id/nav_item_shop"
+        android:checkable="true"
+        android:icon="@drawable/drawer_shop_icon"
+        android:title="Shop" />
+
+    &lt;!&ndash; <item
+         android:id="@+id/nav_item_chat"
+         android:checkable="true"
+         android:icon="@drawable/drawer_chat_icon"
+         android:title="Chat" />&ndash;&gt;
+
+
+    <item
+        android:id="@+id/nav_item_invite_contacts"
+        android:checkable="true"
+        android:icon="@drawable/drawer_invite_icon"
+        android:title="Refer Friends" />
+
+    &lt;!&ndash;<item
+            android:id="@+id/nav_item_share"
+            android:checkable="true"
+            android:icon="@drawable/drawer_share_icon"
+            android:title="Share" />
+&ndash;&gt;
+
+
+    <item
+        android:id="@+id/nav_item_logout"
+        android:checkable="true"
+        android:icon="@drawable/drawer_logout_icon"
+        android:title="Logout" />-->
+
+
+</menu>
