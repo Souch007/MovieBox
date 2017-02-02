@@ -15,6 +15,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -38,6 +39,8 @@ import Others.Drawermenu;
 import Others.JsonParser;
 import Others.MyHelper;
 import Others.SingletonModel;
+import category.FragmentTvshows;
+import category.Fragmentcategory;
 import xyz.sahildave.widget.SearchViewLayout;
 
 public class DrawerActivity extends AppCompatActivity {
@@ -116,7 +119,7 @@ public class DrawerActivity extends AppCompatActivity {
         searchViewLayout = (SearchViewLayout) findViewById(R.id.search_view_container);
         searchViewLayout.setHint("Search Movie");
         searchViewLayout.setExpandedContentSupportFragment(this, new MovieParentTab());
-     /*   searchViewLayout.setSearchBoxListener(new SearchViewLayout.SearchBoxListener() {
+        searchViewLayout.setSearchBoxListener(new SearchViewLayout.SearchBoxListener() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -139,7 +142,7 @@ public class DrawerActivity extends AppCompatActivity {
                 }
 
             }
-        });*/
+        });
         mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
